@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pages</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="headingparagraf.html">PARAGRAPH</a></li>
+            <li><a href="textformatting.html">FORMATTING</a></li>
+            <li><a href="list.html">LIST</a></li>
+            <li><a href="table.html">TABLE</a></li>
+            <li><a href="imagelink.html">IMAGE</a></li>
+            <li><a href="form.html">FORM</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Form pendaftaran Studi Independen 2023 - PT Arkatama Multi Solusindo</h2><br>
+    <form>
+        <label for="nama">Nama</label><br>
+        <input type="text" name="nama" id="nama" placeholder="Nama lengkap" required><br><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="Email aktif" required><br><br>
+
+        <label for="nohp">No HP</label><br>
+        <input type="tel" name="nohp" id="nohp" pattern="[0-9]{9,15}" placeholder="No HP aktif" required><br><br>
+
+        <label>Jenis Kelamin</label><br>
+        <input type="radio" name="jenis-kelamin" id="jk-laki">
+        <label for="jk-laki">Laki-laki</label><br>
+        <input type="radio" name="jenis-kelamin" id="jk-perempuan">
+        <label for="jk-perempuan">Perempuan</label><br><br>
+
+        <label for="prodi">Prodi</label><br>
+        <select id="prodi" name="prodi">
+            <option value="pilih">Pilih</option>
+            <option value="teknikinformatika">Teknik Informatika</option>
+            <option value="akutansi">Akutansi</option>
+            <option value="manajemen">Manajemen</option>
+        </select><br>
+
+        <label>Hobi</label><br>
+        <input type="checkbox" id="membaca" name="membaca" value="membaca">
+        <label for="membaca">Membaca</label><br>
+        <input type="checkbox" id="menulis" name="menulis" value="menulis">
+        <label for="menulis">Menulis</label><br>
+        <input type="checkbox" id="menyanyi" name="menyanyi" value="menyanyi">
+        <label for="menyanyi">Menyanyi</label><br>
+        <input type="checkbox" id="olahraga" name="olahraga" value="olahraga">
+        <label for="olahraga">Olahraga</label><br><br>
+
+        <label for="alamat">Alamat</label><br>
+        <textarea name="alamat" id="alamat" rows="2" cols="25" placeholder="Alamat lengkap" required></textarea><br><br>
+
+        <label>Foto Diri</label><br>
+        <input type="file" id="fileUpload" name="fileUpload"><br>
+
+        <button type="submit" value="submit">Daftar</button><br>
+    </form>
+    </div>
+        <div class="footer">
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
