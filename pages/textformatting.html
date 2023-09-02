@@ -16,37 +16,34 @@
     </nav>
     <main>
         <article class="pages">
-            <h3>Version Control System</h3>
-            <p><b>Version Control System (VCS)</b> merupakan sebuah kumpulan perangkat lunak yang
-                terintegrasi dan digunakan untuk membantu
-                <strong>software engineer</strong> mengelola perubahan source
-                code dari waktu ke waktu.
-                <i>Dengan perangkat lunak ini</i>
-                <mark>sistem mampu melacak perubahan</mark> atau
-                <em>modifikasi source code.</em>
-                <small>Jika suatu waktu ditemukan kesalahan</small>
-                <del>akibat human error</del>
-                <ins>maka software engineer</ins>
-                <sub>dapat dengan mudah membandingkan</sub>
-                <sup>dengan versi sebelumnya dan melakukan perbaikan.</sup>
+            <h3>Pengertian CSS</h3>
+            <p> 
+                <b>CSS adalah bahasa Cascading Style Sheet</b> dan
+                <strong>biasanya digunakan untuk mengatur tampilan elemen yang tertulis dalam bahasa markup, seperti HTML.</strong> 
+                <i>CSS berfungsi untuk memisahkan koCSS dibuat dan dikembangkan oleh W3C (World Wide Web Consortium)</i>
+                <mark>pada tahun 1996 untuk alasan yang sederhana.</mark>
+                <em>Dulu HTML tidak dilengkapi dengan tags yang berfungsi untuk memformat halaman. Anda hanya perlu menulis markup untuk situs. Tags, seperti < font >, diperkenalkan di HTML versi 3.2, dan ketika itu menyebabkan banyak masalah bagi developer.</em>
+                <small>Karena website memiliki berbagai font, warna background, dan style, maka untuk menulis kembali (rewrite) kode memerlukan proses yang sangat panjang dan sulit.</small>
+                <del>Oleh sebab itu, W3C membuat CSS untuk menyelesaikan masalah ini.</del>
+                <ins>HTML dan CSS memiliki keterikatan yang erat.</ins>
+                <sub>Karena HTML adalah bahasa markup (fondasi situs) dan CSS memperbaiki style (untuk semua aspek yang terkait dengan tampilan website),</sub>
+                <sup>maka keduanya harus berjalan beriringan.</sup>
             </p>
 
-            <h3>Cara Kerja Version Control System</h3>
-            <p>Version control (kontrol versi) menggunakan repository atau repositori (database
-                perubahan) dan Salinan pekerjaan di mana kita melakukan pekerjaan. Salinan kerja
-                (kadang-kadang disebut checkout dalam istilah pemrograman) adalah salinan pribadi dari semua file
-                dalam proyek. Kita dapat mengedit salinan tersebut, tanpa memengaruhi rekan satu tim. Saat
-                perubahan dirasa sudah sesuai maka dapat dilakukan komit (commit) perubahan ke repositori.
-                Repositori merupakan database dari semua pengeditan untuk, dan atau versi historis (snapshot)
-                dari, proyek. Repository mungkin berisi perubahan yang belum diterapkan ke copy pekerjaan
-                projek lokal. Kita dapat memperbarui salinan respository (pull) sesuai dengan perubahan
-                terbaru yang ada di respository.
-                Secara sederhana repository merupakan database perubahan yang menampung riwayat
-                atau sejarah linier dari setiap perubahan yang telah dilakukan. Karena repository menyimpan
-                riwayat perubahan dan setiap software engineer yang terlibat dalam projek bisa membuat
-                salinan dari repository maka kita dapat melakukan perubahan secara bersamaan (kolaboratif)
-                dan menggabungkannya (branch dan merge). Dengan adanya riwayat perubahan juga
-                mempermudah pelacakan (trace) dari kode yang sedang dikerjakan.</p>
+            <h3>CSS Style Internal, External, dan Inline</h3>
+            <p>
+             <ul>
+                <li>CSS Style Internal diload setiap kali website di-refresh, dan kekurangannya adalah waktu loading semakin lama. 
+                    CSS style yang sama pun tidak dapat digunakan di halaman lain karena sudah aktif terlebih dulu di suatu halaman.
+                    Namun di balik kekurangannya, CSS Style Internal memiliki beberapa kelebihan. Salah satunya adalah kemudahan 
+                    dalam sharing template untuk pratinjau (preview) karena CSS hanya ada di satu halaman.</li>
+                <li>CSS Style External merupakan CSS style yang paling mudah dan tidak menyulitkan. Semuanya dilakukan secara 
+                    eksternal pada file .css. Styling dilakukan di file terpisah, lalu terapkan
+                    CSS ke halaman mana pun yang Anda inginkan. Sayangnya, CSS Style External juga memperlama waktu loading.</li>
+                <li>CSS Style Inline menggunakan elemen spesifik yang memuat tag < style >. Karena setiap komponen harus di-stylize, 
+                    maka Inline bukan metode yang tepat jika Anda ingin menggunakan CSS dengan cepat.</li>
+             </ul>
+            </p>
         </article>
     </main>
     <footer>
