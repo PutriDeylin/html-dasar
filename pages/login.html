@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Pages</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my page's</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="login">
+            <div class="login-container">
+                <div class="login-form">
+                    <h2>Silahkan Login Terlebih Dahulu</h2>
+                    <img src="../assets/image/arkatama.png" alt="Captcha Image">
+                    <h4><span class="required">*</span> Wajib Diisi</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username <span class="required">*</span></label>
+                            <input type="text" id="username" name="username" placeholder="Masukkan username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password <span class="required">*</span></label>
+                            <input type="password" id="password" name="password" placeholder="Masukkan password"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <!-- Tempatkan gambar captcha di sini -->
+                            <img src="../assets/image/captcha1.jpg" alt="Captcha Image" id="captcha-image"><br>
+                            <label for="captcha">Captcha <span class="required">*</span></label>
+                            <input type="text" id="captcha" name="captcha" placeholder="Masukkan captcha" required>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Tempatkan video di sebelah kanan -->
+                <div class="video-container">
+                    <video controls>
+                        <source src="../assets/video/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>@putrideylin</p>
+    </footer>
+</body>
+
+</html>
