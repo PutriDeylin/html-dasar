@@ -121,7 +121,7 @@ input[type="password"] {
     margin-top: 4px;
 }
 
-button:hover {
+.form-group button:hover {
     background-color: rgb(183, 241, 167);
 }
 
