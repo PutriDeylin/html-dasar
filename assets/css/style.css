@@ -168,7 +168,7 @@ th {
 }
 
 .product-gallery {
-    padding: 50px;
+    padding: 1px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -179,8 +179,8 @@ th {
     font-size: var(--ukuran-font);
     padding: 40px;
     margin: -20px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     animation: changeColor 4s linear infinite;
     
 }
@@ -214,7 +214,7 @@ th {
     width: 180px;
     height: 470px;
     background: linear-gradient(var(--warna-awal),var(--warna-akhir));
-    margin: -20px;
+    margin-bottom: 50px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
