@@ -274,8 +274,8 @@ header {
 }
 
 .product-card {
-    width: 230px;
-    height: 550px;
+    width: 220px;
+    height: 530px;
     background: linear-gradient(var(--warna-awal),var(--warna-akhir));
     margin-bottom: 50px;
     padding: 20px;
