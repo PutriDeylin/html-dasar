@@ -28,6 +28,10 @@ header {
     color: rgb(66, 191, 200); 
 }
 
+#logo:hover #logo-p {
+    color: black; 
+}
+
 #logo-p {
 	color: rgb(66, 191, 200); 
 	margin-left: 5px;
