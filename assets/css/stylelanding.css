@@ -1,8 +1,8 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header & Nav */
@@ -11,130 +11,165 @@ header {
     width: 100%;
     position: absolute;
     top: 0;
-	z-index: 2;
+    z-index: 2;
 }
 
 #logo {
     line-height: 60px;
     margin-left: 40px;
     display: inline-block;
-	cursor: pointer;
-	font-size: 30px;
-	font-weight: bold;
-	color: black; 
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
 }
 
 #logo:hover {
-    color: rgb(66, 191, 200); 
+    color: rgb(66, 191, 200);
 }
 
 #logo:hover #logo-p {
-    color: black; 
+    color: black;
 }
 
 #logo-p {
-	color: rgb(66, 191, 200); 
-	margin-left: 5px;
+    color: rgb(66, 191, 200);
+    margin-left: 5px;
 }
 
 #logo:hover #logo-s {
-	color: black; 
+    color: black;
 }
 
 .nav {
-	float: right;
-	line-height: 60px;
-	margin-right: 40px;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
 }
 
 .nav a {
-	color: black;
-	font-weight: bold;
-	text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .nav a:hover {
-	color: rgb(66, 191, 200); 
-	border-color: rgb(66, 191, 200); 
+    color: rgb(66, 191, 200);
+    border-color: rgb(66, 191, 200);
 }
 
 /* Carousel */
 .slider {
-	position: relative;
-	width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 .images {
-	height: 655px;
-	display: none;
-	overflow: hidden;
+    height: 655px;
+    display: none;
+    overflow: hidden;
 }
 
 .images img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-.prev, .next {
-	position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);
-	font-size: 50px;
-	padding: 15px;
-	cursor: pointer;
-	color: black;
-	transition: 0.1s;
-	user-select: none;
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    padding: 15px;
+    cursor: pointer;
+    color: black;
+    transition: 0.1s;
+    user-select: none;
 }
 
-.prev:hover, .next:hover {
-	color: rgb(66, 191, 200);
+.prev:hover,
+.next:hover {
+    color: rgb(66, 191, 200);
 }
 
 .next {
-	right: 0;
+    right: 0;
 }
 
 .dotsbox {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%);
-	bottom: 20px;
-	cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    cursor: pointer;
 }
 
 .dot {
-	display: inline-block;
-	width: 15px;
-	height: 15px;
-	border: 3px solid black;
-	border-radius: 50%;
-	margin: 0 10px;
-	cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
 /* Javascript */
-.active, .dot:hover {
-	border-color: rgb(66, 191, 200);
+.active,
+.dot:hover {
+    border-color: rgb(66, 191, 200);
 }
 
 /* Images */
 .images img {
-	transform: scale(1.5, 1.5);
-	-webkit-animation-name: zoomin;
-  	-webkit-animation-duration: 40s;
-  	animation-name: zoomin;
-  	animation-duration: 40s;
+    transform: scale(1.5, 1.5);
+    -webkit-animation-name: zoomin;
+    -webkit-animation-duration: 40s;
+    animation-name: zoomin;
+    animation-duration: 40s;
 }
 
 @-webkit-keyframes zoomin {
-  from {transform: scale(1, 1);}
-  to {transform: scale(1.5, 1.5);}
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
 }
 
 @keyframes zoomin {
-  from {transform: scale(1, 1);}
-  to {transform: scale(1.5, 1.5);}
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.5, 1.5);
+    }
+}
+
+/* Txt images */
+.txt {
+    position: absolute;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 35px;
+    top: 40%;
+    left: 15%;
+    z-index: 1;
+}
+
+.txt h1 {
+    color: rgb(66, 191, 200);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.txt p {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /* Content */
@@ -148,14 +183,14 @@ header {
 .about h2 {
     font-size: 36px;
     margin-bottom: 20px;
-	color: white;
+    color: white;
     animation: fadeIn 1s ease-in-out forwards;
 }
 
 .about p {
     font-size: 20px;
     margin-bottom: 30px;
-	color: white;
+    color: white;
     padding: 60px;
 }
 
@@ -169,6 +204,7 @@ header {
         opacity: 0;
         transform: translateY(20px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -244,7 +280,7 @@ header {
 
 /* Product */
 :root {
-    --warna-awal:  rgb(66, 191, 200);
+    --warna-awal: rgb(66, 191, 200);
     --warna-akhir: rgb(175, 243, 248);
     --warna-tengah: rgb(248, 162, 2);
     --warna-teks: black;
@@ -267,16 +303,18 @@ header {
     margin-bottom: 50px;
     margin-top: 50px;
     animation: changeColor 4s linear infinite;
-    
+
 }
 
 @keyframes changeColor {
     10% {
         background-color: var(--warna-awal);
     }
+
     5% {
         background-color: var(--warna-tengah);
     }
+
     50% {
         background-color: var(--warna-akhir);
     }
@@ -298,7 +336,7 @@ header {
 .product-card {
     width: 220px;
     height: 530px;
-    background: linear-gradient(var(--warna-awal),var(--warna-akhir));
+    background: linear-gradient(var(--warna-awal), var(--warna-akhir));
     margin-bottom: 50px;
     padding: 20px;
     border-radius: 20px;
@@ -341,18 +379,3 @@ header {
 .product-card a:hover {
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

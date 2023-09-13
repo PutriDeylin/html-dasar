@@ -17,7 +17,7 @@ console.log(alamat);
 let o = 25;
 o = 30;
 
-let inf = 100/0;
+let inf = 100 / 0;
 console.log(inf);
 
 // atau
@@ -58,13 +58,13 @@ let isLess = 10 < 5;
 // Data Type Null
 let girlfriend = null;
 
-console.log(girlfriend); 
-console.log(typeof girlfriend); 
+console.log(girlfriend);
+console.log(typeof girlfriend);
 
 // Data Type Undefined
 let name;
 console.log(name);
-console.log(typeof name); 
+console.log(typeof name);
 
 // Data Type Symbol
 let karyawan = Symbol('PutriDey');
@@ -97,11 +97,11 @@ let num = Number(str);
 alert(typeof num);
 
 // Type Conversion Boolean
-alert( Boolean(1) ); //true
-alert( Boolean(0) ); // false
+alert(Boolean(1)); //true
+alert(Boolean(0)); // false
 
-alert( Boolean("hello") ); //true
-alert( Boolean("") ); // false
+alert(Boolean("hello")); //true
+alert(Boolean("")); // false
 
 // Aritmethic Operator
 let a = 10;
@@ -155,7 +155,7 @@ console.log(i == j ? "yes" : "no");
 
 // Pop up : Alert
 alert("Selamat datang di Arkatama");
-alert("Sekarang tanggal: "+new Date());
+alert("Sekarang tanggal: " + new Date());
 
 // Pop up : Prompt
 let response = prompt("Apakah kamu mau nonton akhir pekan ini?");
@@ -175,7 +175,7 @@ if (resp == 2) {
 let res = prompt("1 + 2 =");
 if (res == 3) {
     alert("Correct!");
-}else{
+} else {
     alert("Wrong!");
 }
 
@@ -183,9 +183,9 @@ if (res == 3) {
 let rspn = prompt("1 + 3 =");
 if (rspn == 4) {
     alert("Correct!");
-}else if(rspn < 4){
+} else if (rspn < 4) {
     alert("Too low!");
-}else{
+} else {
     alert("Too high!");
 }
 
@@ -214,7 +214,7 @@ let l = 1;
 
 do {
     console.log(`Iterasi do... while ke ${l}`);
-    l+=1;
+    l += 1;
 } while (l < 6);
 
 // Loop : While
@@ -227,7 +227,7 @@ while (m < 5) {
 
 // Loop Control : Break
 for (let n = 0; n < 5; n++) {
-    if(n==3){
+    if (n == 3) {
         break;
     }
     console.log(`Iterasi break ke ${n}`);
@@ -235,7 +235,7 @@ for (let n = 0; n < 5; n++) {
 
 // Loop Control : Continue
 for (let p = 0; p < 5; p++) {
-    if(p==3){
+    if (p == 3) {
         continue;
     }
     console.log(`Iterasi continue ke ${p}`);

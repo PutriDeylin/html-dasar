@@ -1,5 +1,6 @@
+// Javascript Image Slide
 const myslide = document.querySelectorAll('.images'),
-	  dot = document.querySelectorAll('.dot');
+	dot = document.querySelectorAll('.dot');
 let counter = 1;
 slidefun(counter);
 
@@ -24,41 +25,44 @@ function resetTimer() {
 }
 
 function slidefun(n) {
-	
+
 	let i;
-	for(i = 0;i<myslide.length;i++){
+	for (i = 0; i < myslide.length; i++) {
 		myslide[i].style.display = "none";
 	}
-	for(i = 0;i<dot.length;i++) {
+	for (i = 0; i < dot.length; i++) {
 		dot[i].className = dot[i].className.replace(' active', '');
 	}
-	if(n > myslide.length){
-	   counter = 1;
-	   }
-	if(n < 1){
-	   counter = myslide.length;
-	   }
+	if (n > myslide.length) {
+		counter = 1;
+	}
+	if (n < 1) {
+		counter = myslide.length;
+	}
 	myslide[counter - 1].style.display = "block";
 	dot[counter - 1].className += " active";
 }
 
+// Javascript DOM Image About
 let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-    let slides = document.getElementsByClassName("slide");
-    
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    
-    slideIndex++;
-    
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-    
-    slides[slideIndex - 1].style.display = "block";
-    
-    setTimeout(showSlides, 2000); // Ganti gambar setiap 2 detik
+	let slides = document.getElementsByClassName("slide");
+
+	for (let i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+
+	slideIndex++;
+
+	if (slideIndex > slides.length) {
+		slideIndex = 1;
+	}
+
+	slides[slideIndex - 1].style.display = "block";
+
+	setTimeout(showSlides, 2000);
 }
+
+
