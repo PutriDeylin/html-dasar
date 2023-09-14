@@ -38,6 +38,24 @@ nav ul li a {
     font-size: 25px;
 }
 
+.content img {
+    max-width: 200px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    float: right;
+    animation: moveImage 4s ease-in-out infinite;
+}
+
+@keyframes moveImage {
+    20% {
+        transform: translate(-10px);
+    }
+    45% {
+        transform: translate(-10px, 10px);
+    }
+}
+
 /* Main Article */
 main {
     background-color: white;
