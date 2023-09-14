@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 .content img {
-    max-width: 200px;
+    max-width: 300px;
     padding-right: 20px;
     padding-bottom: 20px;
     animation: moveImage 4s ease-in-out infinite;
