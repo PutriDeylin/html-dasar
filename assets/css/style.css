@@ -40,10 +40,8 @@ nav ul li a {
 
 .content img {
     max-width: 200px;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    float: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
     animation: moveImage 4s ease-in-out infinite;
 }
 
