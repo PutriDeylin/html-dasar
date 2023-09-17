@@ -64,38 +64,6 @@ const products = [
         imageSrc: '../assets/image/samsung2.jpg',
         link: '#'
     }, 
-    {
-        name: 'Xiomi Note 11 Pro',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
-        price: 'Rp3.999.000',
-        rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
-        imageSrc: '../assets/image/xiomi1.jpg',
-        link: '#'
-    }, 
-    {
-        name: 'Xiomi Note 10',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
-        price: 'Rp2.549.000',
-        rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
-        imageSrc: '../assets/image/xiomi2.jpg',
-        link: '#'
-    }, 
-    {
-        name: 'Realme X3',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
-        price: 'Rp6.100.000',
-        rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
-        imageSrc: '../assets/image/realme1.jpg',
-        link: '#'
-    }, 
-    {
-        name: 'Realme Narzo 30A',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
-        price: 'Rp2.499.000',
-        rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
-        imageSrc: '../assets/image/realme2.jpg',
-        link: '#'
-    }, 
 ];
 
 // Menambahkan produk ke dalam galeri produk
