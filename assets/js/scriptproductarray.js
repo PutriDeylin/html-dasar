@@ -34,7 +34,7 @@ const products = [
     },
     {
         name: 'OPPO A57',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
+        description: 'HP OPPO adalah smartphone canggih dengan berbagai fitur terbaru.',
         price: 'Rp2.399.000',
         rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
         imageSrc: '../assets/image/oppo1.jpg',
@@ -42,7 +42,7 @@ const products = [
     }, 
     {
         name: 'OPPO A78',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
+        description: 'HP OPPO adalah smartphone canggih dengan berbagai fitur terbaru.',
         price: 'Rp3.999.000',
         rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
         imageSrc: '../assets/image/oppo2.jpg',
@@ -50,7 +50,7 @@ const products = [
     }, 
     {
         name: 'Samsung A34',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
+        description: 'HP Samsung adalah smartphone canggih dengan berbagai fitur terbaru.',
         price: 'Rp5.399.000',
         rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
         imageSrc: '../assets/image/samsung1.jpg',
@@ -58,7 +58,7 @@ const products = [
     }, 
     {
         name: 'Samsung Z Flip 5',
-        description: 'HP VIVO adalah smartphone canggih dengan berbagai fitur terbaru.',
+        description: 'HP Samsung adalah smartphone canggih dengan berbagai fitur terbaru.',
         price: 'Rp17.999.000',
         rating: '&#9733; &#9733; &#9733; &#9733; &#9733;',
         imageSrc: '../assets/image/samsung2.jpg',
