@@ -1,4 +1,4 @@
-// Javascript Image Slide
+// Javascript DOM Image Slide
 const myslide = document.querySelectorAll('.images'),
 	dot = document.querySelectorAll('.dot');
 let counter = 1;
