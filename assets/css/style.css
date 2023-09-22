@@ -161,7 +161,7 @@ video {
 }
 
 /* Media Query */
-@media (min-width: 868px) {
+@media (min-width: 768px) {
     .login-container {
         flex-direction: row;
         justify-content: space-between;
