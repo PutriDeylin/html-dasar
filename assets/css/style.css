@@ -160,8 +160,48 @@ video {
     color: red;
 }
 
-/* Media Query */
-@media (min-width: 768px) {
+/* Media Query Perangkat Hp */
+@media screen (max-width: 767px) {
+    .login-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .login-form {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .video-container {
+        flex: 1;
+        margin-top: 0;
+        max-width: 50%;
+    }
+}
+
+/* Media Query Perangkat Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .login-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .login-form {
+        flex: 1;
+        padding-right: 20px;
+    }
+
+    .video-container {
+        flex: 1;
+        margin-top: 0;
+        max-width: 50%;
+    }
+}
+
+/* Media Query Perangkat Laptop dan Desktop */
+@media screen and (min-width: 1024px) {
     .login-container {
         flex-direction: row;
         justify-content: space-between;
