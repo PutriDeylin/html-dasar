@@ -22,5 +22,3 @@ fetch('https://fakestoreapi.com/products')
   });
 })
 .catch((error) => console.error('Error fetching data:', error));
-
-
