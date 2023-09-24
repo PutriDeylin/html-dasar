@@ -160,7 +160,7 @@ video {
     color: red;
 }
 
-/* Media Query */
+/* Css Responsive Login */
 @media (min-width: 1000px) {
     .login-container {
         flex-direction: row;

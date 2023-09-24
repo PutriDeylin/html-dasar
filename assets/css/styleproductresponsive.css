@@ -38,22 +38,6 @@ nav ul li a {
     font-size: 25px;
 }
 
-.content img {
-    max-width: 300px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    animation: moveImage 4s ease-in-out infinite;
-}
-
-@keyframes moveImage {
-    20% {
-        transform: translate(-10px);
-    }
-    45% {
-        transform: translate(-10px, 10px);
-    }
-}
-
 /* Main Article */
 main {
     background-color: white;
@@ -95,6 +79,7 @@ article img {
     margin-bottom: 50px;
     margin-top: 20px;
     animation: changeColor 4s linear infinite;
+
 }
 
 @keyframes changeColor {
@@ -124,25 +109,16 @@ article img {
     background-color: var(--warna-awal);
 }
 
-#product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
 .product-card {
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 470px;
     background: linear-gradient(var(--warna-awal), var(--warna-akhir));
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease;
-    margin: 10px;
-    padding-bottom: 200px;
 }
 
 .product-card:hover {
@@ -150,15 +126,14 @@ article img {
 }
 
 .product-card img {
-    max-width: 100%;
-    object-fit: contain;
-    height: 15em;
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .product-card h3 {
     color: var(--warna-teks);
     margin: 10px 0;
-    font-size: 15px;
 }
 
 .product-card p {
@@ -181,22 +156,15 @@ article img {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 720px){
-    .product-card img {
-        max-width: 100%;
-        object-fit: contain;
-        height: 10em;
+/* Css Responsive Product */
+@media (max-width: 768px) {
+    .product-gallery {
+        justify-content: center; 
     }
 
     .product-card {
-        max-width: 10em;
-        margin-top: 1em;
-    }
-
-    #product-list {
-        grid-template-columns: auto auto;
-        grid-column-gap: 1em;
-
+        width: 100%; 
+        margin: 0 0 20px 0; 
     }
 }
 
