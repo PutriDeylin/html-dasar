@@ -1,8 +1,8 @@
 // Ini Menggunakan Mockapi.io
-// Menyimpan data produk dalam bentuk array
+// Product-galerry container
 const productGallery = document.getElementById('product-gallery');
 
-// Fetch data from MockAPI.io endpoint
+// Fetch data from mockapi.io endpoint
 fetch('https://650f6f4b54d18aabfe9a10d0.mockapi.io/api/products')
   .then((response) => response.json())
   .then((data) => {
