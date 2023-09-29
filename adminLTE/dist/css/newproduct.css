@@ -1,0 +1,14 @@
+.card {
+    width: 14rem; 
+    margin-left: 5rem; 
+    margin-right: -2rem; 
+    margin-bottom: 3rem; 
+    float: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 600px) {
+    .card {
+        max-width: 100%;
+    }
+}
